@@ -14,4 +14,18 @@
 
 // https -> Secured
 
-// Setup the server Stopped: 1:16:27
+// How to Setup server
+
+// i. install express => npm i express or npm install express
+// a. Dependencies: Any thing that our backend depend on inother to run.
+// b. Dev Dependencies: Are those dependencies we only need while we are developing. When a project is deployed those dependencies becomes irrelevant.
+// c. Global Dependencies: Are those dependencies we install on our computer. e.g. node
+
+const express = require("express")
+
+const app = express()
+
+// Second method in one single line
+// const app = require("express")()
+
+app.listen(5000)
